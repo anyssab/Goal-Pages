@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Goals</key>
+	<array>
+		<string>eat more vegetables</string>
+		<string>lower BP </string>
+		<string>stop eating sweets </string>
+		<string>Walk to work everyday, or at least walk during your lunch hour to the nearest park and back home before 7pm </string>
+		<string>eat less bread </string>
+	</array>
+</dict>
+</plist>

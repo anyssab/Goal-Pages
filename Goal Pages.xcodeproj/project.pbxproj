@@ -21,6 +21,13 @@
 		7790FFD818EDDAF8003DA3C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7790FFBA18EDDAF8003DA3C8 /* UIKit.framework */; };
 		7790FFE018EDDAF9003DA3C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7790FFDE18EDDAF9003DA3C8 /* InfoPlist.strings */; };
 		7790FFE218EDDAF9003DA3C8 /* Goal_PagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7790FFE118EDDAF9003DA3C8 /* Goal_PagesTests.m */; };
+		779D7B3A18F3B20400BCA972 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779D7B3918F3B20400BCA972 /* CustomCell.xib */; };
+		779D7B3C18F3B22600BCA972 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D7B3B18F3B22600BCA972 /* CustomCell.m */; };
+		779D7B3F18F3B9E600BCA972 /* Goals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 779D7B3E18F3B9E600BCA972 /* Goals.plist */; };
+		77B0F7C419003A5200E661A1 /* backgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0F7C319003A5200E661A1 /* backgroundViewController.m */; };
+		77B0F7CC1900439F00E661A1 /* goals.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0F7CB1900439F00E661A1 /* goals.png */; };
+		77B0F7CE1900451F00E661A1 /* achievements.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0F7CD1900451F00E661A1 /* achievements.png */; };
+		77B0F7DE1900572600E661A1 /* DASHGOALBACK.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0F7DD1900572600E661A1 /* DASHGOALBACK.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		7790FFDD18EDDAF9003DA3C8 /* Goal PagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Goal PagesTests-Info.plist"; sourceTree = "<group>"; };
 		7790FFDF18EDDAF9003DA3C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7790FFE118EDDAF9003DA3C8 /* Goal_PagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goal_PagesTests.m; sourceTree = "<group>"; };
+		779D7B3918F3B20400BCA972 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		779D7B3B18F3B22600BCA972 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		779D7B3D18F3B23B00BCA972 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		779D7B3E18F3B9E600BCA972 /* Goals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Goals.plist; sourceTree = "<group>"; };
+		77B0F7C219003A5200E661A1 /* backgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backgroundViewController.h; sourceTree = "<group>"; };
+		77B0F7C319003A5200E661A1 /* backgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backgroundViewController.m; sourceTree = "<group>"; };
+		77B0F7CB1900439F00E661A1 /* goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goals.png; sourceTree = SOURCE_ROOT; };
+		77B0F7CD1900451F00E661A1 /* achievements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievements.png; sourceTree = SOURCE_ROOT; };
+		77B0F7DD1900572600E661A1 /* DASHGOALBACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DASHGOALBACK.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +128,19 @@
 		7790FFBC18EDDAF8003DA3C8 /* Goal Pages */ = {
 			isa = PBXGroup;
 			children = (
+				77B0F7CD1900451F00E661A1 /* achievements.png */,
+				77B0F7CB1900439F00E661A1 /* goals.png */,
+				77B0F7DD1900572600E661A1 /* DASHGOALBACK.png */,
 				7790FFC518EDDAF8003DA3C8 /* AppDelegate.h */,
 				7790FFC618EDDAF8003DA3C8 /* AppDelegate.m */,
 				7790FFC818EDDAF8003DA3C8 /* Main.storyboard */,
+				77B0F7C219003A5200E661A1 /* backgroundViewController.h */,
+				77B0F7C319003A5200E661A1 /* backgroundViewController.m */,
 				7790FFCB18EDDAF8003DA3C8 /* ViewController.h */,
 				7790FFCC18EDDAF8003DA3C8 /* ViewController.m */,
+				779D7B3918F3B20400BCA972 /* CustomCell.xib */,
+				779D7B3D18F3B23B00BCA972 /* CustomCell.h */,
+				779D7B3B18F3B22600BCA972 /* CustomCell.m */,
 				7790FFCE18EDDAF8003DA3C8 /* Images.xcassets */,
 				7790FFBD18EDDAF8003DA3C8 /* Supporting Files */,
 			);
@@ -130,6 +154,7 @@
 				7790FFBF18EDDAF8003DA3C8 /* InfoPlist.strings */,
 				7790FFC218EDDAF8003DA3C8 /* main.m */,
 				7790FFC418EDDAF8003DA3C8 /* Goal Pages-Prefix.pch */,
+				779D7B3E18F3B9E600BCA972 /* Goals.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,8 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B0F7DE1900572600E661A1 /* DASHGOALBACK.png in Resources */,
+				779D7B3F18F3B9E600BCA972 /* Goals.plist in Resources */,
 				7790FFCF18EDDAF8003DA3C8 /* Images.xcassets in Resources */,
+				77B0F7CC1900439F00E661A1 /* goals.png in Resources */,
+				77B0F7CE1900451F00E661A1 /* achievements.png in Resources */,
 				7790FFC118EDDAF8003DA3C8 /* InfoPlist.strings in Resources */,
+				779D7B3A18F3B20400BCA972 /* CustomCell.xib in Resources */,
 				7790FFCA18EDDAF8003DA3C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			files = (
 				7790FFCD18EDDAF8003DA3C8 /* ViewController.m in Sources */,
 				7790FFC718EDDAF8003DA3C8 /* AppDelegate.m in Sources */,
+				779D7B3C18F3B22600BCA972 /* CustomCell.m in Sources */,
 				7790FFC318EDDAF8003DA3C8 /* main.m in Sources */,
+				77B0F7C419003A5200E661A1 /* backgroundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 				7790FFE718EDDAF9003DA3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7790FFE818EDDAF9003DA3C8 /* Build configuration list for PBXNativeTarget "Goal PagesTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				7790FFEA18EDDAF9003DA3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

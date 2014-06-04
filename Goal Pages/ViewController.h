@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>{
 
+
+NSArray *goals;
+UITableView *_tableView;
+
+}
 @end
+
